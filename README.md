@@ -1,4 +1,4 @@
-# 🥞 Tinku and the Robot Chef — MLOps Explained (with AWS Tools)
+# 🥞 Tinku and the Robot Chef - MLOps Explained (with AWS Tools)
 
 This repository explains the **entire MLOps lifecycle** using a simple story of *Tinku and his Robot Chef*, combined with **real production concepts** and **AWS tooling**.
 
@@ -10,7 +10,7 @@ Each step includes:
 
 ---
 
-## ⭐ 1. **Business Problem — “Tinku wants perfect dosas”**
+## ⭐ 1. **Business Problem - “Tinku wants perfect dosas”**
 ### ✔ What it means  
 Identify the ML objective.
 
@@ -25,7 +25,7 @@ Predict seat load factor for an airline route.
 
 ---
 
-## ⭐ 2. **Data Collection — “Collect dosa notes”**
+## ⭐ 2. **Data Collection - “Collect dosa notes”**
 ### ✔ What it means  
 Gather raw datasets from different sources.
 
@@ -43,7 +43,7 @@ Flight bookings dataset pulled from S3.
 
 ---
 
-## ⭐ 3. **Data Cleaning — “Wash messy notes”**
+## ⭐ 3. **Data Cleaning - “Wash messy notes”**
 ### ✔ What it means  
 Fix missing, corrupted, or inconsistent data.
 
@@ -60,7 +60,7 @@ Remove null baggage weights or wrong timestamps.
 
 ---
 
-## ⭐ 4. **Model Training — “Teach robot good/bad dosas”**
+## ⭐ 4. **Model Training - “Teach robot good/bad dosas”**
 ### ✔ What it means  
 Train an algorithm using processed data.
 
@@ -77,7 +77,7 @@ Train XGBoost to predict ticket prices.
 
 ---
 
-## ⭐ 5. **Model Evaluation — “Check if robot learned”**
+## ⭐ 5. **Model Evaluation - “Check if robot learned”**
 ### ✔ What it means  
 Measure model performance using metrics.
 
@@ -93,7 +93,7 @@ Compute MAPE/RMSE for forecasting.
 
 ---
 
-## ⭐ 6. **Deployment — “Move robot to kitchen”**
+## ⭐ 6. **Deployment - “Move robot to kitchen”**
 ### ✔ What it means  
 Expose the model to real users.
 
@@ -110,7 +110,7 @@ Expose `/predict` API to return load factor predictions.
 
 ---
 
-## ⭐ 7. **Real-time Inference — “Robot tastes batter daily”**
+## ⭐ 7. **Real-time Inference - “Robot tastes batter daily”**
 ### ✔ What it means  
 Serve predictions instantly for new inputs.
 
@@ -126,7 +126,7 @@ Predict fare recommendations during booking.
 
 ---
 
-## ⭐ 8. **Data Drift — “Batter changes”**
+## ⭐ 8. **Data Drift - “Batter changes”**
 ### ✔ What it means  
 Incoming data shifts away from training data.
 
@@ -141,7 +141,7 @@ Holiday travel patterns change → drift.
 
 ---
 
-## ⭐ 9. **Monitoring & Alerts — “Dosa counter warns Tinku”**
+## ⭐ 9. **Monitoring & Alerts - “Dosa counter warns Tinku”**
 ### ✔ What it means  
 Track model health & trigger alerts.
 
@@ -158,7 +158,7 @@ Alert if latency > 200ms or accuracy < 70%.
 
 ---
 
-## ⭐ 10. **Continuous Training — “Retrain robot”**
+## ⭐ 10. **Continuous Training - “Retrain robot”**
 ### ✔ What it means  
 Automatic retraining using new fresh data.
 
@@ -175,7 +175,7 @@ Daily retraining when airline data updates.
 
 ---
 
-## ⭐ 11. **Model Versioning — “Robot brains v1, v2, v3”**
+## ⭐ 11. **Model Versioning - “Robot brains v1, v2, v3”**
 ### ✔ What it means  
 Store and manage multiple model versions.
 
@@ -191,7 +191,7 @@ v3 performed worse → revert to v2.
 
 ---
 
-## ⭐ 12. **Data Versioning — “Dosa notes by date”**
+## ⭐ 12. **Data Versioning - “Dosa notes by date”**
 ### ✔ What it means  
 Track versions of datasets over time.
 
@@ -208,7 +208,7 @@ Dataset_v3 → Model_v5 mapping.
 
 ---
 
-## ⭐ 13. **CI/CD — “Check if robot breaks after updates”**
+## ⭐ 13. **CI/CD - “Check if robot breaks after updates”**
 ### ✔ What it means  
 Automated testing, building, deployment.
 
@@ -226,7 +226,7 @@ Run unit tests & integration tests before deployment.
 
 ---
 
-## ⭐ 14. **Workflow Orchestration — “Chop → Mix → Cook → Serve”**
+## ⭐ 14. **Workflow Orchestration - “Chop → Mix → Cook → Serve”**
 ### ✔ What it means  
 Automate multi-step ML pipelines.
 
@@ -243,7 +243,7 @@ Daily pipeline: ingest → train → evaluate → deploy.
 
 ---
 
-## ⭐ 15. **Scalability — “More robots for more guests”**
+## ⭐ 15. **Scalability - “More robots for more guests”**
 ### ✔ What it means  
 Increase compute when traffic grows.
 
@@ -260,7 +260,7 @@ Handle peak loads.
 
 ---
 
-## ⭐ 16. **Autoscaling — “Robots sleep when guests leave”**
+## ⭐ 16. **Autoscaling - “Robots sleep when guests leave”**
 ### ✔ What it means  
 Automatically scale up/down based on demand.
 
@@ -277,7 +277,7 @@ Low traffic at night → scale down to 1 instance.
 
 ---
 
-## ⭐ 17. **Full MLOps Lifecycle — “Collect → Train → Deploy → Monitor → Fix”**
+## ⭐ 17. **Full MLOps Lifecycle - “Collect → Train → Deploy → Monitor → Fix”**
 ### ✔ What it means  
 End-to-end automation across entire ML lifecycle.
 
